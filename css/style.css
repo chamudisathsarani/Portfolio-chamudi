@@ -10,8 +10,8 @@
 ======================================*/
 
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #f5f5f5; /* Lighter Gray */
+  color: #4d4d4d; /* Medium Gray */
 }
 
 h1,
@@ -20,16 +20,17 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #333333; /* Dark Gray */
 }
 
 a {
-  color: #1e1e1e;
+  color: #995333; /* Soft Blue */
   transition: all 0.5s ease-in-out;
 }
 
+
 a:hover {
-  color: #0078ff;
+  color: #ff4500; /* OrangeRed */
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -39,15 +40,15 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: #ff4500; /* OrangeRed */
 }
 
 .color-d {
-  color: #f5f5f5;
+  color: #fafafa; /* Light Gray */
 }
 
 .color-text-a {
-  color: #4e4e4e;
+  color: #333333; /* Dark Gray */
 }
 
 .box-shadow,
@@ -60,7 +61,7 @@ a:hover {
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #ffd7b5; /* Light Peach */
 }
 
 .display-5 {
@@ -82,7 +83,7 @@ a:hover {
   overflow: hidden;
 }
 
-.bg-image {
+.bg_image_1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -90,7 +91,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #ff4500; /* OrangeRed */
 }
 
 .overlay-mf {
@@ -137,7 +138,7 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #222222; /* Almost Black */
   font-size: 1.1rem;
 }
 
@@ -154,13 +155,13 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #333333; /* Dark Gray */
 }
 
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #ff4500; /* OrangeRed */
   margin: 0 auto;
 }
 
@@ -179,7 +180,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #ff4500; /* OrangeRed */
   width: 100px;
   bottom: -12px;
 }
@@ -216,14 +217,14 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #ff4500; /* OrangeRed */
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #ff4500; /* OrangeRed */
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #ffd7b5; /* Light Peach */
   transition: all 500ms ease;
 }
 
@@ -246,7 +247,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #ff4500; /* OrangeRed */
   margin-right: 10px;
 }
 
@@ -260,7 +261,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #ff4500; /* OrangeRed */
   display: block;
 }
 
@@ -279,19 +280,19 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
+  background: #ffd7b5; /* Light Peach */
+  border: 0px solid #ffd7b5; /* Light Peach */
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
+  background-color: #ffd7b5; /* Light Peach */
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #222222; /* Almost Black */
   width: 25px;
 }
 
@@ -307,7 +308,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #ff4500; /* OrangeRed */
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -326,7 +327,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #ff4500; /* OrangeRed */
   color: #fff;
   width: 44px;
   height: 44px;
@@ -364,7 +365,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #ff4500; /* OrangeRed */
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -395,6 +396,8 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+
+
 
 /*======================================
 //--//-->   NAVBAR
@@ -481,26 +484,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #ec956a;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #ec956a;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #ec956a;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #ec956a;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #ec956a;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -532,13 +535,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #0078ff;
+  background-color: #df4733;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #0078ff;
+  background-color: #df4733;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -652,7 +655,7 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #e97025;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -697,7 +700,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #e28f13;
 }
 
 /*======================================
@@ -714,7 +717,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #e3783a;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -799,17 +802,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #ec8734;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #ec8734;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #ec8734;
 }
 
 .work-content .w-like .num-like {
@@ -852,7 +855,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
+  color: #814e13;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -862,105 +865,6 @@ a:hover {
   line-height: 1.6;
 }
 
-/*======================================
-//--//-->   BLOG
-======================================*/
-
-.card-blog .card-body {
-  position: relative;
-}
-
-.card-blog .card-category-box {
-  position: absolute;
-  text-align: center;
-  top: -16px;
-  left: 15px;
-  right: 15px;
-  line-height: 25px;
-  overflow: hidden;
-}
-
-.card-blog .card-category {
-  display: inline-block;
-  color: #fff;
-  padding: 0 15px 5px;
-  overflow: hidden;
-  background-color: #0078ff;
-  border-radius: 4px;
-}
-
-.card-blog .card-category .category {
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1px;
-  margin-bottom: 0;
-}
-
-.card-blog .card-title {
-  font-size: 1.3rem;
-  margin-top: .6rem;
-}
-
-.card-blog .card-description {
-  color: #4e4e4e;
-}
-
-.card-blog .post-author {
-  display: inline-block;
-}
-
-.card-blog .post-date {
-  color: #4e4e4e;
-  display: inline-block;
-  float: right;
-}
-
-/*======================================
-//--//-->   BLOG-SINGLE
-======================================*/
-
-.post-box,
-.form-comments,
-.box-comments,
-.widget-sidebar {
-  padding: 2rem;
-  background-color: #fff;
-  margin-bottom: 3rem;
-}
-
-.blog-wrapper .article-title {
-  font-size: 1.5rem;
-}
-
-.blog-wrapper .post-meta {
-  margin: 1rem 0;
-}
-
-.blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
-  margin-top: 1rem;
-}
-
-.blog-wrapper .post-meta ul li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.blog-wrapper .post-meta ul a {
-  color: #0078ff;
-}
-
-.blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
-}
-
-.blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
-  padding: 18px;
-  font-style: italic;
-}
 
 /*------/ Comments /------*/
 
@@ -989,7 +893,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: #5c4b01;
 }
 
 .box-comments .list-comments span {
@@ -1006,7 +910,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #b85d2f;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1023,19 +927,19 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: #c35105;
   top: 20px;
 }
 
 .sidebar-search input {
-  background-color: #fff;
+  background-color: #ae1414;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #8a2c0a;
+  border-color: #e46526;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1043,7 +947,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #c34e2a;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -1070,8 +974,8 @@ a:hover {
 ======================================*/
 
 footer {
-  text-align: center;
-  color: #fff;
+  text-align: right;
+  color: #fc4d33;
   padding-bottom: 4rem;
 }
 
@@ -1084,7 +988,7 @@ footer .credits {
 }
 
 footer .credits a {
-  color: #fff;
+  color: #fc4d33;
 }
 
 /*======================================
@@ -1092,8 +996,8 @@ footer .credits a {
 ======================================*/
 
 #sendmessage {
-  color: #0078ff;
-  border: 1px solid #0078ff;
+  color: #e32113;
+  border: 1px solid #fb6225;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1104,7 +1008,7 @@ footer .credits a {
 #errormessage {
   color: red;
   display: none;
-  border: 1px solid red;
+  border: 1px solid rgb(222, 109, 53);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1150,15 +1054,15 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #0062d3;
-  color: #fff;
+  background-color: #e77c18;
+  color: #dfd3d3;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
-  color: #fff;
-  border-color: #cde1f8;
+  background-color: #cf7047;
+  color: #e8e3e3;
+  border-color: #f99d2e;
 }
 
 .button-big {
